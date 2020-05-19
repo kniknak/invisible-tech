@@ -1,0 +1,25 @@
+{
+  "name": "invisible-tech",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kniknak/invisible-tech.git",
+  "author": "g9 <georgy.devyatkin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/jest": "^25.2.3",
+    "@types/mockdate": "^2.0.0",
+    "@types/yargs": "^15.0.5",
+    "axios": "^0.19.2",
+    "axios-retry": "^3.1.8",
+    "jest": "^26.0.1",
+    "mockdate": "^2.0.5",
+    "ts-jest": "^26.0.0",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2",
+    "yargs": "^15.3.1"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node ./index.ts"
+  }
+}
